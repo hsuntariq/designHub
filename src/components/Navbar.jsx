@@ -85,11 +85,15 @@ const Navbar = () => {
             aria-label="DesignHub - Home"
           >
             <div
-              className="w-10 h-10 bg-gradient-to-r from-purple-600 to-blue-600 rounded-xl flex items-center justify-center shadow-md group-hover:scale-105 transition-transform duration-200"
+              className="w-10 h-10 0 rounded-xl flex items-center justify-center  group-hover:scale-105 transition-transform duration-200"
               role="img"
               aria-label="DesignHub Logo"
             >
-              <span className="text-white font-bold text-lg">D</span>
+              <img
+                className="text-white font-bold text-lg"
+                src="/favicon.png"
+                alt="Logo"
+              />
             </div>
             <div className="flex flex-col">
               <span className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
