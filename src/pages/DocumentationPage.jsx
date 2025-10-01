@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const DocumentationPage = () => {
   const [activeCategory, setActiveCategory] = useState("getting-started");
@@ -792,14 +793,14 @@ $spacing-2: $spacing-base;
                 {/* Article Navigation */}
                 <div className="mt-12 pt-6 border-t border-gray-200">
                   <div className="flex justify-between items-center">
-                    <button className="flex items-center space-x-2 text-purple-600 hover:text-purple-700 transition-colors">
+                    {/* <button className="flex items-center space-x-2 text-purple-600 hover:text-purple-700 transition-colors">
                       <span>←</span>
                       <span>Previous Article</span>
                     </button>
                     <button className="flex items-center space-x-2 text-purple-600 hover:text-purple-700 transition-colors">
                       <span>Next Article</span>
                       <span>→</span>
-                    </button>
+                    </button> */}
                   </div>
                 </div>
               </div>
@@ -887,15 +888,26 @@ $spacing-2: $spacing-base;
                 have any questions or suggestions.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <button className="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-6 py-3 rounded-xl font-semibold hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-200">
+                <a
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=hsuntariq@gmail.com&su=Feedback%20Helpful&body=👍%20Yes,%20it%20was%20helpful!"
+                  className="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-6 py-3 rounded-xl font-semibold hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-200"
+                >
                   👍 Yes, it was helpful
-                </button>
-                <button className="border-2 border-gray-300 text-gray-700 px-6 py-3 rounded-xl font-semibold hover:border-purple-400 hover:text-purple-600 transition-all duration-200">
+                </a>
+
+                <a
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=hsuntariq@gmail.com&su=Feedback%20Could%20be%20better&body=👎%20Could%20be%20better"
+                  className="border-2 border-gray-300 text-gray-700 px-6 py-3 rounded-xl font-semibold hover:border-purple-400 hover:text-purple-600 transition-all duration-200"
+                >
                   👎 Could be better
-                </button>
-                <button className="border-2 border-gray-300 text-gray-700 px-6 py-3 rounded-xl font-semibold hover:border-purple-400 hover:text-purple-600 transition-all duration-200">
+                </a>
+
+                <Link
+                  to={"/support"}
+                  className="border-2 border-gray-300 text-gray-700 px-6 py-3 rounded-xl font-semibold hover:border-purple-400 hover:text-purple-600 transition-all duration-200"
+                >
                   💬 Contact Support
-                </button>
+                </Link>
               </div>
             </div>
           </div>

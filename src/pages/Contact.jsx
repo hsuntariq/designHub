@@ -21,10 +21,12 @@ const Contact = () => {
     });
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
-    setIsSubmitting(true);
 
+    const { name, email, subject, message, category } = formData;
+
+    setIsSubmitting(true);
     // Simulate form submission
     setTimeout(() => {
       setIsSubmitting(false);
@@ -37,6 +39,15 @@ const Contact = () => {
         category: "general",
       });
     }, 2000);
+    // Gmail compose link (works in browser)
+    const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=hsuntariq@gmail.com&su=${encodeURIComponent(
+      subject
+    )}&body=${encodeURIComponent(
+      `Name: ${name}\nEmail: ${email}\nCategory: ${category}\n\nMessage:\n${message}`
+    )}`;
+
+    // Open Gmail compose in a new tab
+    window.open(gmailUrl, "_blank");
   };
 
   const contactMethods = [
@@ -45,7 +56,7 @@ const Contact = () => {
       title: "Email Us",
       description: "Send us an email anytime",
       details: "hsuntariq@gmail.com",
-      link: "mailto:hsuntariq@gmail.com",
+      link: "https://mail.google.com/mail/u/0/?view=cm&fs=1&to=hsuntariq@gmail.com",
     },
     {
       icon: "🐦",

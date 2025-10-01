@@ -31,7 +31,7 @@ const Footer = () => {
                 {
                   name: "Twitter",
                   icon: "🐦",
-                  url: "http://www.x.com/hsuntariq",
+                  url: "http://www.x.com/hassan00",
                 },
                 {
                   name: "Instagram",
