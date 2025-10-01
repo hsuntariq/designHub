@@ -189,7 +189,7 @@ const PalettePage = () => {
 
         <AdPlaceholder />
       </div>
-      <div className="flex flex-col w-full h-screen">
+      <div className="flex flex-col w-full  overflow-x-scroll h-screen">
         <Toaster position="bottom-center" />
 
         {/* Instruction Banner */}
@@ -198,7 +198,7 @@ const PalettePage = () => {
         </div>
 
         {/* Export Buttons */}
-        <div className="flex gap-4 justify-center py-2 bg-gray-100">
+        <div className="flex flex-wrap gap-4 justify-center py-2 bg-gray-100">
           <button
             onClick={exportPDF}
             className="px-3 py-1 bg-red-500 text-white rounded"
@@ -223,19 +223,26 @@ const PalettePage = () => {
           >
             Export JSON
           </button>
+          <button
+            onClick={shuffleAll}
+            className="px-3 py-1 bg-cyan-500 text-white rounded"
+          >
+            Generate New
+          </button>
         </div>
-
-        {/* Palette */}
-        <div className="flex flex-1">
-          {colors.map((c, i) => (
-            <ColorCard
-              key={i}
-              hex={c.hex}
-              name={c.name}
-              onShuffle={() => shuffleColor(i)}
-              onFavorite={saveToFavorites}
-            />
-          ))}
+        <div className="w-full flex overflow-x-scroll">
+          {/* Palette */}
+          <div className="flex shrink-0 flex-1">
+            {colors.map((c, i) => (
+              <ColorCard
+                key={i}
+                hex={c.hex}
+                name={c.name}
+                onShuffle={() => shuffleColor(i)}
+                onFavorite={saveToFavorites}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </>

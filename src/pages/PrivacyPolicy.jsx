@@ -33,7 +33,7 @@ const PrivacyPolicy = () => {
                 1. Information We Collect
               </h2>
               <p className="text-gray-700 mb-4">
-                At DesignHub, we are committed to protecting your privacy. We
+                At DesignoHub, we are committed to protecting your privacy. We
                 collect minimal information to provide and improve our services:
               </p>
               <ul className="list-disc list-inside text-gray-700 space-y-2 mb-4">

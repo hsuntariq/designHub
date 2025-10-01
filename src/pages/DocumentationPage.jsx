@@ -13,14 +13,14 @@ const DocumentationPage = () => {
       articles: [
         {
           id: "introduction",
-          title: "Introduction to DesignTools",
-          content: `# Welcome to DesignTools!
+          title: "Introduction to DesignoHub",
+          content: `# Welcome to DesignoHub!
 
-DesignTools is a comprehensive suite of free, powerful design utilities built for modern designers and developers. Our platform provides everything you need to create beautiful, consistent designs faster than ever before.
+DesignoHub is a comprehensive suite of free, powerful design utilities built for modern designers and developers. Our platform provides everything you need to create beautiful, consistent designs faster than ever before.
 
-## What is DesignTools?
+## What is DesignoHub?
 
-DesignTools is a collection of web-based design utilities that help you:
+DesignoHub is a collection of web-based design utilities that help you:
 - Generate perfect color palettes
 - Create harmonious typography scales
 - Build consistent spacing systems
@@ -28,7 +28,7 @@ DesignTools is a collection of web-based design utilities that help you:
 - Access ready-to-use UI components
 - Create complete design systems
 
-## Why Choose DesignTools?
+## Why Choose DesignoHub?
 
 <b>🎯 Perfect for Teams</b>
 Collaborate seamlessly with tools that produce consistent, production-ready results.
@@ -47,7 +47,7 @@ Every tool follows design best practices and produces pixel-perfect results.`,
           title: "Quick Start Guide",
           content: `# Quick Start Guide
 
-Get up and running with DesignTools in just a few minutes.
+Get up and running with DesignoHub in just a few minutes.
 
 ## Step 1: Choose Your Tool
 Browse our collection of design tools and select the one that fits your needs:
@@ -415,7 +415,7 @@ html { font-size: 14px; }
           title: "Tool Integrations",
           content: `# Tool Integrations
 
-Learn how to integrate DesignTools with your favorite frameworks and tools.
+Learn how to integrate DesignoHub with your favorite frameworks and tools.
 
 ## React Integration
 
@@ -428,7 +428,7 @@ function App() {
   return (
     <div className="p-6 bg-white rounded-xl shadow-lg">
       <h1 className="text-3xl font-bold text-gray-900">Welcome</h1>
-      <p className="text-gray-600 mt-2">Using DesignTools generated styles</p>
+      <p className="text-gray-600 mt-2">Using DesignoHub generated styles</p>
     </div>
   );
 }
@@ -441,7 +441,7 @@ function App() {
 <template>
   <div class="card">
     <h2 class="heading">Vue Component</h2>
-    <p class="body">Using DesignTools spacing and colors</p>
+    <p class="body">Using DesignoHub spacing and colors</p>
   </div>
 </template>
 
@@ -468,7 +468,7 @@ function App() {
 4. Implement spacing system with auto-layout
 
 ### Example Workflow
-1. Generate palette in DesignTools
+1. Generate palette in DesignoHub
 2. Create color styles in Figma
 3. Apply to components and frames
 4. Maintain consistency across design and code`,

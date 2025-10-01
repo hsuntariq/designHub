@@ -17,7 +17,7 @@ const Footer = () => {
                 <span className="text-white font-bold text-lg">D</span>
               </div>
               <span className="text-xl font-bold bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">
-                DesignHub
+                DesignoHub
               </span>
             </div>
             <p className="text-gray-300 text-sm mb-6 leading-relaxed">
@@ -170,7 +170,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             {/* Copyright */}
             <div className="text-gray-400 text-sm">
-              © {currentYear} DesignHub. All rights reserved.
+              © {currentYear} DesignoHub. All rights reserved.
             </div>
 
             {/* Additional Legal Links */}

@@ -114,7 +114,7 @@ const AllToolsPage = () => {
 
     {
       id: "content-generator",
-      link: "/lorem-generator",
+      link: "/para-generator",
       name: "Design Content Generator",
       description:
         "Generate beautiful placeholder content for your designs and prototypes. Multiple formats and lengths available.",

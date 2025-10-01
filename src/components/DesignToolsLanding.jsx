@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
-const DesignToolsLanding = () => {
+const DesignoHubLanding = () => {
   const [activeTestimonial, setActiveTestimonial] = useState(0);
   const [stats, setStats] = useState({ users: 0, palettes: 0, components: 0 });
 
@@ -76,7 +76,7 @@ const DesignToolsLanding = () => {
     },
     {
       icon: "📐",
-      link: "/spacing-scale",
+      link: "/spacing-scale-generator",
       title: "Spacing Scale Generator",
       description:
         "Create consistent spacing systems for margins, padding, and layout harmony.",
@@ -468,105 +468,6 @@ const DesignToolsLanding = () => {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-white py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
-            {/* Brand */}
-            <div>
-              <div className="flex items-center space-x-3 mb-6">
-                <div className="w-10 h-10 bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg flex items-center justify-center">
-                  <span className="text-white font-bold text-lg">D</span>
-                </div>
-                <span className="text-2xl font-bold text-white">
-                  DesignTools
-                </span>
-              </div>
-              <p className="text-gray-400 mb-6 leading-relaxed">
-                Building the future of design tools for creators worldwide.
-                Free, powerful, and always improving.
-              </p>
-              <div className="flex space-x-4">
-                {["🐦", "📷", "🏀", "💻"].map((icon, index) => (
-                  <button
-                    key={index}
-                    className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-gray-700 transition-colors"
-                  >
-                    {icon}
-                  </button>
-                ))}
-              </div>
-            </div>
-
-            {/* Tools */}
-            <div>
-              <h3 className="font-semibold text-white mb-6">Design Tools</h3>
-              <ul className="space-y-3">
-                {tools.slice(0, 4).map((tool, index) => (
-                  <li key={index}>
-                    <a
-                      href="#"
-                      className="text-gray-400 hover:text-white transition-colors"
-                    >
-                      {tool.title}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            {/* Resources */}
-            <div>
-              <h3 className="font-semibold text-white mb-6">Resources</h3>
-              <ul className="space-y-3">
-                {[
-                  "Documentation",
-                  "Tutorials",
-                  "Blog",
-                  "Examples",
-                  "Community",
-                ].map((item, index) => (
-                  <li key={index}>
-                    <a
-                      href="#"
-                      className="text-gray-400 hover:text-white transition-colors"
-                    >
-                      {item}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            {/* Legal */}
-            <div>
-              <h3 className="font-semibold text-white mb-6">Company</h3>
-              <ul className="space-y-3">
-                {["About", "Privacy", "Terms", "Contact", "Careers"].map(
-                  (item, index) => (
-                    <li key={index}>
-                      <a
-                        href="#"
-                        className="text-gray-400 hover:text-white transition-colors"
-                      >
-                        {item}
-                      </a>
-                    </li>
-                  )
-                )}
-              </ul>
-            </div>
-          </div>
-
-          <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-            <div className="text-gray-400 text-sm">
-              © 2024 DesignTools. All rights reserved.
-            </div>
-            <div className="flex space-x-6 text-sm text-gray-400 mt-4 md:mt-0">
-              <span>Made with ❤️ for the design community</span>
-            </div>
-          </div>
-        </div>
-      </footer>
 
       {/* Floating CTA */}
       <div className="fixed bottom-6 right-6 z-50">
@@ -605,4 +506,4 @@ const DesignToolsLanding = () => {
   );
 };
 
-export default DesignToolsLanding;
+export default DesignoHubLanding;

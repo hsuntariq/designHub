@@ -33,8 +33,9 @@ const TermsOfService = () => {
                 1. Acceptance of Terms
               </h2>
               <p className="text-gray-700 mb-4">
-                By accessing and using DesignHub ("the Service"), you accept and
-                agree to be bound by the terms and provision of this agreement.
+                By accessing and using DesignoHub ("the Service"), you accept
+                and agree to be bound by the terms and provision of this
+                agreement.
               </p>
             </section>
 
@@ -43,7 +44,7 @@ const TermsOfService = () => {
                 2. Use License
               </h2>
               <p className="text-gray-700 mb-4">
-                Permission is granted to temporarily use DesignHub's tools for
+                Permission is granted to temporarily use DesignoHub's tools for
                 personal and commercial projects. This is the grant of a
                 license, not a transfer of title.
               </p>
@@ -93,7 +94,7 @@ const TermsOfService = () => {
                 5. Service Modifications
               </h2>
               <p className="text-gray-700 mb-4">
-                DesignHub reserves the right to modify or discontinue,
+                DesignoHub reserves the right to modify or discontinue,
                 temporarily or permanently, the Service with or without notice.
                 We shall not be liable to you or any third party for any
                 modification, suspension, or discontinuance of the Service.
@@ -106,7 +107,7 @@ const TermsOfService = () => {
               </h2>
               <p className="text-gray-700 mb-4">
                 Our Service may contain links to third-party websites or
-                services that are not owned or controlled by DesignHub. We have
+                services that are not owned or controlled by DesignoHub. We have
                 no control over, and assume no responsibility for, the content,
                 privacy policies, or practices of any third-party websites or
                 services.
@@ -118,7 +119,7 @@ const TermsOfService = () => {
                 7. Advertising
               </h2>
               <p className="text-gray-700 mb-4">
-                DesignHub uses Google AdSense to display advertisements. By
+                DesignoHub uses Google AdSense to display advertisements. By
                 using our Service, you agree to the placement of cookies and
                 similar technologies as described in our Privacy Policy.
               </p>
@@ -129,8 +130,8 @@ const TermsOfService = () => {
                 8. Disclaimer
               </h2>
               <p className="text-gray-700 mb-4">
-                The materials on DesignHub are provided on an 'as is' basis.
-                DesignHub makes no warranties, expressed or implied, and hereby
+                The materials on DesignoHub are provided on an 'as is' basis.
+                DesignoHub makes no warranties, expressed or implied, and hereby
                 disclaims and negates all other warranties including, without
                 limitation, implied warranties or conditions of merchantability,
                 fitness for a particular purpose, or non-infringement of
@@ -143,10 +144,10 @@ const TermsOfService = () => {
                 9. Limitations
               </h2>
               <p className="text-gray-700 mb-4">
-                In no event shall DesignHub or its suppliers be liable for any
+                In no event shall DesignoHub or its suppliers be liable for any
                 damages (including, without limitation, damages for loss of data
                 or profit, or due to business interruption) arising out of the
-                use or inability to use the materials on DesignHub's website.
+                use or inability to use the materials on DesignoHub's website.
               </p>
             </section>
 
@@ -155,9 +156,9 @@ const TermsOfService = () => {
                 10. Accuracy of Materials
               </h2>
               <p className="text-gray-700 mb-4">
-                The materials appearing on DesignHub's website could include
-                technical, typographical, or photographic errors. DesignHub does
-                not warrant that any of the materials on its website are
+                The materials appearing on DesignoHub's website could include
+                technical, typographical, or photographic errors. DesignoHub
+                does not warrant that any of the materials on its website are
                 accurate, complete or current.
               </p>
             </section>
@@ -167,10 +168,10 @@ const TermsOfService = () => {
                 11. Links
               </h2>
               <p className="text-gray-700 mb-4">
-                DesignHub has not reviewed all of the sites linked to its
+                DesignoHub has not reviewed all of the sites linked to its
                 website and is not responsible for the contents of any such
                 linked site. The inclusion of any link does not imply
-                endorsement by DesignHub of the site.
+                endorsement by DesignoHub of the site.
               </p>
             </section>
 
@@ -179,7 +180,7 @@ const TermsOfService = () => {
                 12. Modifications
               </h2>
               <p className="text-gray-700 mb-4">
-                DesignHub may revise these terms of service for its website at
+                DesignoHub may revise these terms of service for its website at
                 any time without notice. By using this website you are agreeing
                 to be bound by the then current version of these terms of
                 service.

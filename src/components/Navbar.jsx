@@ -82,12 +82,12 @@ const Navbar = () => {
           <Link
             to="/"
             className="flex items-center space-x-3 group"
-            aria-label="DesignHub - Home"
+            aria-label="DesignoHub - Home"
           >
             <div
               className="w-10 h-10 0 rounded-xl flex items-center justify-center  group-hover:scale-105 transition-transform duration-200"
               role="img"
-              aria-label="DesignHub Logo"
+              aria-label="DesignoHub Logo"
             >
               <img
                 className="text-white font-bold text-lg"
@@ -97,7 +97,7 @@ const Navbar = () => {
             </div>
             <div className="flex flex-col">
               <span className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
-                DesignHub
+                DesignoHub
               </span>
               <span className="text-xs text-gray-500 -mt-1">Design Tools</span>
             </div>
@@ -241,7 +241,7 @@ const Navbar = () => {
               <Link
                 to="/color-generator"
                 className="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-5 py-2.5 rounded-xl font-semibold hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-200 inline-flex items-center space-x-2 shadow-md hover:shadow-purple-200"
-                aria-label="Get started with DesignHub"
+                aria-label="Get started with DesignoHub"
               >
                 <span>🚀</span>
                 <span>Get Started</span>
