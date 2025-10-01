@@ -1,14 +1,250 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" prefix="og: https://ogp.me/ns#">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/designHub/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-    <script type="module" crossorigin src="/assets/index-CziQQZ6C.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-CefFlRmR.css">
+
+    <!-- Primary Meta Tags -->
+    <title>
+      Bloggy - Free Design Tools for Developers & Designers | Color Generators,
+      CSS Tools
+    </title>
+    <meta
+      name="title"
+      content="Bloggy - Free Design Tools for Developers & Designers | Color Generators, CSS Tools"
+    />
+    <meta
+      name="description"
+      content="Bloggy offers free, powerful design tools for developers and designers. Create color palettes, CSS gradients, typography scales, and design systems with our easy-to-use online tools."
+    />
+    <meta
+      name="keywords"
+      content="design tools, color generator, CSS gradients, typography scale, design system, web design, development tools, free tools, color palette, CSS generator"
+    />
+    <meta name="author" content="Bloggy" />
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://bloggy.site" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://bloggy.site/" />
+    <meta
+      property="og:title"
+      content="Bloggy - Free Design Tools for Developers & Designers"
+    />
+    <meta
+      property="og:description"
+      content="Create beautiful designs with Bloggy's free online tools. Generate color palettes, CSS gradients, typography systems, and complete design systems."
+    />
+    <meta property="og:image" content="https://bloggy.site/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Bloggy Design Tools - Create Beautiful Designs"
+    />
+    <meta property="og:site_name" content="Bloggy" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://bloggy.site/" />
+    <meta
+      property="twitter:title"
+      content="Bloggy - Free Design Tools for Developers & Designers"
+    />
+    <meta
+      property="twitter:description"
+      content="Create beautiful designs with Bloggy's free online tools. Generate color palettes, CSS gradients, typography systems, and complete design systems."
+    />
+    <meta
+      property="twitter:image"
+      content="https://bloggy.site/twitter-image.jpg"
+    />
+    <meta
+      property="twitter:image:alt"
+      content="Bloggy Design Tools - Create Beautiful Designs"
+    />
+
+    <!-- Additional SEO Meta Tags -->
+    <meta name="theme-color" content="#8B5CF6" />
+    <meta name="msapplication-TileColor" content="#8B5CF6" />
+    <meta name="apple-mobile-web-app-title" content="Bloggy" />
+    <meta name="application-name" content="Bloggy" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+
+    <!-- Structured Data / JSON-LD -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Bloggy Design Tools",
+        "url": "https://bloggy.site",
+        "description": "Free online design tools for developers and designers including color generators, CSS gradient tools, typography scale generators, and design system builders.",
+        "applicationCategory": "DesignApplication",
+        "operatingSystem": "Any",
+        "permissions": "browser",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Bloggy",
+          "url": "https://bloggy.site"
+        },
+        "author": {
+          "@type": "Organization",
+          "name": "Bloggy",
+          "url": "https://bloggy.site"
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://bloggy.site"
+        },
+        "sameAs": ["https://twitter.com/bloggy", "https://github.com/bloggy"]
+      }
+    </script>
+
+    <!-- Additional Schema for Tools -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "Bloggy Design Tools Collection",
+        "description": "Collection of free design tools available on Bloggy",
+        "url": "https://bloggy.site/all-tools",
+        "numberOfItems": 12,
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@type": "WebApplication",
+              "name": "Color Palette Generator",
+              "url": "https://bloggy.site/color-generator",
+              "description": "Generate beautiful color palettes and shades from any color value"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@type": "WebApplication",
+              "name": "CSS Gradient Generator",
+              "url": "https://bloggy.site/gradient-generator",
+              "description": "Create beautiful CSS gradients with visual controls and real-time preview"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@type": "WebApplication",
+              "name": "Typography Scale Generator",
+              "url": "https://bloggy.site/typography-scale",
+              "description": "Build perfect typography systems with modular scales and CSS export"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "item": {
+              "@type": "WebApplication",
+              "name": "Design System Builder",
+              "url": "https://bloggy.site/design-system-builder",
+              "description": "Create complete design systems with custom tokens and components"
+            }
+          }
+        ]
+      }
+    </script>
+
+    <!-- Preload Critical Resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+
+    <!-- Favicon and App Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#8b5cf6" />
+
+    <!-- Security Headers (would be in server config, but good to note) -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:;"
+    />
+
+    <!-- Performance Hints -->
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    />
+
+    <!-- AdSense Verification (when you get your code) -->
+    <!-- <meta name="google-adsense-account" content="ca-pub-XXXXXXXXXXXXXX"> -->
+    <script type="module" crossorigin src="/designHub/assets/index-oD-QpPdc.js"></script>
+    <link rel="stylesheet" crossorigin href="/designHub/assets/index-CefFlRmR.css">
   </head>
   <body>
     <div id="root"></div>
+
+    <!-- Noscript fallback for SEO and accessibility -->
+    <noscript>
+      <div
+        style="
+          text-align: center;
+          padding: 50px;
+          font-family: Arial, sans-serif;
+        "
+      >
+        <h1>Welcome to Bloggy Design Tools</h1>
+        <p>
+          JavaScript is required to use our interactive design tools. Please
+          enable JavaScript to continue.
+        </p>
+        <p>
+          Bloggy provides free design tools for developers and designers
+          including:
+        </p>
+        <ul style="list-style: none; padding: 0">
+          <li>🎨 Color Palette Generator</li>
+          <li>🔄 CSS Gradient Generator</li>
+          <li>🔤 Typography Scale Generator</li>
+          <li>📐 Spacing Scale Generator</li>
+          <li>📱 UI Component Showcase</li>
+          <li>🎯 Design System Builder</li>
+        </ul>
+        <p>
+          Visit our <a href="/documentation">documentation</a> to learn more
+          about our tools.
+        </p>
+      </div>
+    </noscript>
+
+
+    <!-- Performance Monitoring (optional) -->
+    <script>
+      // Basic performance monitoring
+      window.addEventListener("load", function () {
+        setTimeout(function () {
+          const loadTime =
+            performance.timing.loadEventEnd -
+            performance.timing.navigationStart;
+          console.log("Bloggy - Page load time:", loadTime + "ms");
+        }, 0);
+      });
+    </script>
   </body>
 </html>
