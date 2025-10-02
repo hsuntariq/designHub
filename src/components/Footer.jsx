@@ -146,24 +146,6 @@ const Footer = () => {
         </div>
 
         {/* AdSense Banner Placement */}
-        <div className="mt-12 pt-8 border-t border-gray-700">
-          <div className="text-center">
-            <div className="bg-gray-800 rounded-lg p-4 max-w-4xl mx-auto">
-              <div className="text-gray-400 text-sm mb-2">Advertisement</div>
-              <div className="bg-gradient-to-r from-gray-700 to-gray-600 rounded h-32 flex items-center justify-center">
-                <div className="text-center">
-                  <div className="text-gray-400 text-lg mb-2">Ad Space</div>
-                  <div className="text-gray-500 text-sm">
-                    Google AdSense Banner (728x90 / 970x90)
-                  </div>
-                </div>
-              </div>
-              <div className="text-gray-500 text-xs mt-2">
-                Ads help us keep this service free for designers worldwide
-              </div>
-            </div>
-          </div>
-        </div>
 
         {/* Bottom Bar */}
         <div className="mt-8 pt-8 border-t border-gray-700">

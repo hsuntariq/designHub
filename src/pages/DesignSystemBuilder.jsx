@@ -116,20 +116,6 @@ export const designTokens = {
     navigator.clipboard.writeText(generateDesignSystem());
   };
 
-  const AdPlaceholder = () => (
-    <div className="bg-gradient-to-r from-purple-50 to-blue-50 border border-purple-200 rounded-xl p-6 text-center my-8">
-      <div className="text-purple-600 text-sm font-semibold mb-2">
-        ADVERTISEMENT
-      </div>
-      <div className="bg-white border-2 border-dashed border-purple-300 rounded-lg h-32 flex items-center justify-center">
-        <div className="text-center">
-          <div className="text-purple-400 text-lg mb-1">Google AdSense</div>
-          <div className="text-gray-500 text-sm">Responsive Ad Unit</div>
-        </div>
-      </div>
-    </div>
-  );
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-blue-50 py-8 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
@@ -143,8 +129,6 @@ export const designTokens = {
             guidelines. Export ready-to-use CSS and JavaScript.
           </p>
         </div>
-
-        <AdPlaceholder />
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-12">
           {/* Controls */}
@@ -367,8 +351,6 @@ export const designTokens = {
             </div>
           </div>
         </div>
-
-        <AdPlaceholder />
 
         {/* Features */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">

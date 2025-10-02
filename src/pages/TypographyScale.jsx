@@ -122,24 +122,6 @@ const TypographyScale = () => {
     return css;
   };
 
-  // AdSense-friendly ad placeholder
-  const AdPlaceholder = () => (
-    <div className="bg-gradient-to-r from-purple-50 to-blue-50 border border-purple-200 rounded-xl p-6 text-center my-8">
-      <div className="text-purple-600 text-sm font-semibold mb-2">
-        ADVERTISEMENT
-      </div>
-      <div className="bg-white border-2 border-dashed border-purple-300 rounded-lg h-32 flex items-center justify-center">
-        <div className="text-center">
-          <div className="text-purple-400 text-lg mb-1">Google AdSense</div>
-          <div className="text-gray-500 text-sm">Responsive Ad Unit</div>
-        </div>
-      </div>
-      <div className="text-gray-400 text-xs mt-2">
-        Ads help support our free design tools
-      </div>
-    </div>
-  );
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-blue-50 py-8 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
@@ -155,7 +137,6 @@ const TypographyScale = () => {
         </div>
 
         {/* Ad Placement - Top */}
-        <AdPlaceholder />
 
         <div className="grid grid-cols-1 sticky-top lg:grid-cols-3 gap-8 mb-12">
           {/* Controls Panel */}
@@ -390,7 +371,6 @@ const TypographyScale = () => {
         </div>
 
         {/* Ad Placement - Bottom */}
-        <AdPlaceholder />
 
         {/* CSS Output Preview */}
         <div className="bg-gray-900 rounded-2xl shadow-lg overflow-hidden mb-12">

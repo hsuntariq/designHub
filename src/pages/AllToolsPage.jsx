@@ -203,35 +203,6 @@ const AllToolsPage = () => {
       }
     });
 
-  const AdPlaceholder = ({ size = "medium", title = "ADVERTISEMENT" }) => (
-    <div
-      className={`bg-gradient-to-r from-purple-50 to-blue-50 border border-purple-200 rounded-xl p-4 text-center ${
-        size === "large" ? "my-8" : "my-6"
-      }`}
-    >
-      <div className="text-purple-600 text-sm font-semibold mb-2">{title}</div>
-      <div
-        className={`bg-white border-2 border-dashed border-purple-300 rounded-lg flex items-center justify-center ${
-          size === "large" ? "h-32" : size === "small" ? "h-16" : "h-24"
-        }`}
-      >
-        <div className="text-center">
-          <div className="text-purple-400 text-lg mb-1">Google AdSense</div>
-          <div className="text-gray-500 text-sm">
-            {size === "large"
-              ? "Leaderboard (728x90)"
-              : size === "small"
-              ? "Banner (320x100)"
-              : "Medium Rectangle (300x250)"}
-          </div>
-        </div>
-      </div>
-      <div className="text-gray-400 text-xs mt-2">
-        Ads help us keep these tools free forever
-      </div>
-    </div>
-  );
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-purple-50">
       {/* Navigation */}
@@ -516,7 +487,7 @@ const AllToolsPage = () => {
         </div>
 
         {/* Bottom Ad */}
-        <AdPlaceholder size="large" title="UPGRADE YOUR WORKFLOW" />
+        {/* <AdPlaceholder size="large" title="UPGRADE YOUR WORKFLOW" /> */}
 
         {/* CTA Section */}
         <div className="bg-gradient-to-br from-purple-600 via-blue-600 to-cyan-600 rounded-2xl p-8 lg:p-12 text-center text-white mb-12">

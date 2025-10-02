@@ -167,35 +167,6 @@ const DesignoHubLanding = () => {
     },
   ];
 
-  const AdPlaceholder = ({ size = "large" }) => (
-    <div
-      className={`bg-gradient-to-r from-purple-50 to-blue-50 border border-purple-200 rounded-xl p-4 text-center ${
-        size === "large" ? "my-12" : "my-8"
-      }`}
-    >
-      <div className="text-purple-600 text-sm font-semibold mb-2">
-        ADVERTISEMENT
-      </div>
-      <div
-        className={`bg-white border-2 border-dashed border-purple-300 rounded-lg flex items-center justify-center ${
-          size === "large" ? "h-32" : "h-24"
-        }`}
-      >
-        <div className="text-center">
-          <div className="text-purple-400 text-lg mb-1">Google AdSense</div>
-          <div className="text-gray-500 text-sm">
-            {size === "large"
-              ? "Leaderboard (728x90)"
-              : "Medium Rectangle (300x250)"}
-          </div>
-        </div>
-      </div>
-      <div className="text-gray-400 text-xs mt-2">
-        Ads help us keep these tools free forever
-      </div>
-    </div>
-  );
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-purple-50">
       {/* Navigation */}
@@ -260,9 +231,7 @@ const DesignoHubLanding = () => {
       </section>
 
       {/* Ad Placement 1 */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <AdPlaceholder />
-      </div>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"></div>
 
       {/* Tools Grid */}
       <section id="tools" className="py-20 bg-white">
@@ -431,9 +400,6 @@ const DesignoHubLanding = () => {
       </section>
 
       {/* Ad Placement 2 */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <AdPlaceholder size="medium" />
-      </div>
 
       {/* Testimonials */}
 

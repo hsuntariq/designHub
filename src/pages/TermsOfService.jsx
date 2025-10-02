@@ -4,7 +4,10 @@ import { Link } from "react-router-dom";
 
 const TermsOfService = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-blue-50 py-8 px-4 sm:px-6 lg:px-8">
+    <div
+      className="min-h-screennpm run dev
+     bg-gradient-to-br from-gray-50 to-blue-50 py-8 px-4 sm:px-6 lg:px-8"
+    >
       <div className="max-w-4xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
@@ -114,7 +117,7 @@ const TermsOfService = () => {
               </p>
             </section>
 
-            <section className="mb-8">
+            {/* <section className="mb-8">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">
                 7. Advertising
               </h2>
@@ -123,7 +126,7 @@ const TermsOfService = () => {
                 using our Service, you agree to the placement of cookies and
                 similar technologies as described in our Privacy Policy.
               </p>
-            </section>
+            </section> */}
 
             <section className="mb-8">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">

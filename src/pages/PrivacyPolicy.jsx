@@ -73,13 +73,6 @@ const PrivacyPolicy = () => {
                 We do not sell, trade, or rent your personal information to
                 third parties. We may share anonymous, aggregated data with:
               </p>
-              <ul className="list-disc list-inside text-gray-700 space-y-2 mb-4">
-                <li>Analytics providers to understand usage patterns</li>
-                <li>
-                  Advertising partners (Google AdSense) for relevant ad delivery
-                </li>
-                <li>Service providers who assist in operating our website</li>
-              </ul>
             </section>
 
             <section className="mb-8">
@@ -92,9 +85,7 @@ const PrivacyPolicy = () => {
               <ul className="list-disc list-inside text-gray-700 space-y-2 mb-4">
                 <li>Remember your preferences and settings</li>
                 <li>Analyze website traffic and usage patterns</li>
-                <li>
-                  Deliver personalized advertisements through Google AdSense
-                </li>
+
                 <li>Improve user experience and tool functionality</li>
               </ul>
               <p className="text-gray-700">
@@ -112,10 +103,6 @@ const PrivacyPolicy = () => {
                 privacy policies:
               </p>
               <ul className="list-disc list-inside text-gray-700 space-y-2 mb-4">
-                <li>
-                  <strong>Google AdSense:</strong> Serves advertisements and may
-                  use cookies for personalized ads
-                </li>
                 <li>
                   <strong>Google Analytics:</strong> Helps us understand how
                   users interact with our tools

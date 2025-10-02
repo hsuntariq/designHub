@@ -11,7 +11,6 @@ import { IoMdClose } from "react-icons/io";
 import toast, { Toaster } from "react-hot-toast";
 import jsPDF from "jspdf";
 import * as XLSX from "xlsx";
-import AdPlaceholder from "../components/AddPlaceholder";
 
 // Generate initial palette from base color
 const generatePalette = (baseColor = "#3498db") => {
@@ -186,8 +185,6 @@ const PalettePage = () => {
             generating beautiful color schemes for your projects.
           </p>
         </div>
-
-        <AdPlaceholder />
       </div>
       <div className="flex flex-col w-full  overflow-x-scroll h-screen">
         <Toaster position="bottom-center" />

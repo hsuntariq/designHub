@@ -44,35 +44,6 @@ const Color = () => {
     { name: "Red", value: "#EF4444" },
   ];
 
-  const AdPlaceholder = ({ size = "medium" }) => (
-    <div
-      className={`bg-gradient-to-r from-purple-50 to-blue-50 border border-purple-200 rounded-xl p-4 text-center ${
-        size === "large" ? "my-8" : "my-6"
-      }`}
-    >
-      <div className="text-purple-600 text-sm font-semibold mb-2">
-        ADVERTISEMENT
-      </div>
-      <div
-        className={`bg-white border-2 border-dashed border-purple-300 rounded-lg flex items-center justify-center ${
-          size === "large" ? "h-32" : "h-24"
-        }`}
-      >
-        <div className="text-center">
-          <div className="text-purple-400 text-lg mb-1">Google AdSense</div>
-          <div className="text-gray-500 text-sm">
-            {size === "large"
-              ? "Leaderboard (728x90)"
-              : "Medium Rectangle (300x250)"}
-          </div>
-        </div>
-      </div>
-      <div className="text-gray-400 text-xs mt-2">
-        Ads help us keep these tools free forever
-      </div>
-    </div>
-  );
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-blue-50 py-8 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
@@ -89,7 +60,6 @@ const Color = () => {
         </div>
 
         {/* Top Ad */}
-        <AdPlaceholder size="large" />
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-12">
           {/* Controls Sidebar */}
@@ -364,7 +334,6 @@ const Color = () => {
         </div>
 
         {/* Middle Ad */}
-        <AdPlaceholder size="medium" />
 
         {/* Features Section */}
         <div className="bg-white rounded-2xl shadow-lg p-8 mb-12">
@@ -404,7 +373,6 @@ const Color = () => {
         </div>
 
         {/* Bottom Ad */}
-        <AdPlaceholder size="large" />
       </div>
     </div>
   );

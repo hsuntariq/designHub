@@ -583,35 +583,6 @@ $spacing-2: $spacing-base;
     allArticles.find((article) => article.id === activeArticle) ||
     allArticles[0];
 
-  const AdPlaceholder = ({ size = "medium" }) => (
-    <div
-      className={`bg-gradient-to-r from-purple-50 to-blue-50 border border-purple-200 rounded-xl p-4 text-center ${
-        size === "large" ? "my-8" : "my-6"
-      }`}
-    >
-      <div className="text-purple-600 text-sm font-semibold mb-2">
-        ADVERTISEMENT
-      </div>
-      <div
-        className={`bg-white border-2 border-dashed border-purple-300 rounded-lg flex items-center justify-center ${
-          size === "large" ? "h-32" : "h-20"
-        }`}
-      >
-        <div className="text-center">
-          <div className="text-purple-400 text-lg mb-1">Google AdSense</div>
-          <div className="text-gray-500 text-sm">
-            {size === "large"
-              ? "Leaderboard (728x90)"
-              : "Medium Rectangle (300x250)"}
-          </div>
-        </div>
-      </div>
-      <div className="text-gray-400 text-xs mt-2">
-        Ads help us keep documentation updated and free
-      </div>
-    </div>
-  );
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-blue-50">
       {/* Header */}
@@ -699,9 +670,9 @@ $spacing-2: $spacing-base;
             </div>
 
             {/* Sidebar Ad */}
-            <div className="mt-6">
+            {/* <div className="mt-6">
               <AdPlaceholder size="medium" />
-            </div>
+            </div> */}
           </div>
 
           {/* Main Content */}
@@ -874,9 +845,9 @@ $spacing-2: $spacing-base;
             )}
 
             {/* Bottom Ad */}
-            <div className="mt-8">
+            {/* <div className="mt-8">
               <AdPlaceholder size="large" />
-            </div>
+            </div> */}
 
             {/* Feedback Section */}
             <div className="mt-8 bg-gradient-to-r from-purple-50 to-blue-50 rounded-2xl p-8 text-center">
